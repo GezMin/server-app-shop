@@ -93,11 +93,11 @@ export class ProductService {
 				name,
 				description,
 				price,
+				image,
 				slug: generateSlug(name),
 				category: {
 					connect: { id: categoryId }
-				},
-				image
+				}
 			}
 		})
 	}

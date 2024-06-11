@@ -3,7 +3,7 @@ import { Injectable, NotFoundException } from '@nestjs/common'
 import { PrismaService } from 'src/prisma.service'
 import { ProductDto } from './dto/product.dto'
 import { generateSlug } from 'src/utils/generate-slug'
-import { returnProductObject } from './return-product,object'
+import { returnProductObject } from './return-product.object'
 
 @Injectable()
 export class ProductService {
